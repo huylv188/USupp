@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgUserAvatar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/user" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Trần Thị Thum Thủm"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!--<FrameLayout-->
+                <!--android:layout_width="0dip"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:layout_weight="1">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="20dp"-->
+                    <!--android:layout_height="20dp"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--android:src="@mipmap/up" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/btnCommentLike"-->
+                    <!--style="?attr/borderlessButtonStyle"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="right"-->
+                    <!--android:text="1"-->
+                    <!--android:textColor="@android:color/black" />-->
+
+            <!--</FrameLayout>-->
+
+
+            <!--<FrameLayout-->
+                <!--android:layout_width="0dip"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:layout_weight="1">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="20dp"-->
+                    <!--android:layout_height="20dp"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--android:src="@mipmap/down" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/btnCommentDislike"-->
+                    <!--style="?attr/borderlessButtonStyle"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="right"-->
+                    <!--android:text="1"-->
+                    <!--android:textColor="@android:color/black" />-->
+
+            <!--</FrameLayout>-->
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCommentContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Bài này khó lắm làm hộ mình đi" />
+
+        <ImageView
+            android:id="@+id/imgComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvCommentCreateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16:08 21/11/2015"
+            android:textSize="10dp" />
+    </LinearLayout>
+</LinearLayout>

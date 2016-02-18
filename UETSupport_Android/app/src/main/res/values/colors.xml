@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorPrimaryDark">#15269f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabsScrollColor">#8a140e</color>
+    <color name="button_color">#12D3FF</color>
+    <color name="bg_login">#04579b</color>
+    <color name="bg_btn_login">#0267ab</color>
+    <color name="title_background">#e9ebec</color>
+    <color name="splashColor">#08589D</color>
+</resources>

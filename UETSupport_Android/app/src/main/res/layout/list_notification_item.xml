@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:text="Thông báo nộp học phí học kì 1 năm học 2015-2016"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/tvNotificationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="Đề nghị tất cả các bạn sinh viên phải nhanh chóng nộp thuế theo chính sách của nhà nước Cộng Hòa Xã hội chủ nghĩa Việt Nam"
+        android:id="@+id/tvNotificationContent"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvCreateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        />
+
+</LinearLayout>
