@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primary_500</item>
+        <item name="android:colorPrimaryDark">@color/primary_700</item>
+        <item name="android:windowContentTransitions">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

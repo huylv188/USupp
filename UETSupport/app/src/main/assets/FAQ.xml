@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="q1">Xin bảng điểm như thế nào?</string>
+    <string name="q0">Làm vé tháng xe bus như thế nào?</string>
+    <string name="q2">Xin giấy chứng nhận là sinh viên trường như thế nào?</string>
+    <string name="a4">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu &quot;Xem lại bài thi&quot;. Sau đó điền các thông tin cần thiết và bấm &quot;Lưu&quot;. Nếu kết quả phúc khảo không thay đổi thì bạn sẽ phải nộp 15k lệ phí.</string>
+    <string name="a3">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu &quot;Hoãn thi&quot;. Sau đó điền các thông tin cần thiết và bấm &quot;Lưu&quot;. Sau đó nộp giấy xác nhận lý do đã nêu (giấy khám bệnh,...) và nộp tại phòng Công tác sinh viên chậm nhất 3 ngày kể từ ngày thi.</string>
+    <string name="a1">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu cấp bảng điểm. Sau đó điền các thông tin và bấm &quot;Lưu&quot;. Nhớ lên lấy đúng hạn và chuẩn bị lệ phí 5k nhé.</string>
+    <string name="a0">Bây giờ làm vé tháng rất đơn giản, bạn mang thẻ sinh viên ra ngã 3 gần cổng khoa Pháp, có một chị ngồi ở đấy sẽ đưa cho bạn 1 cái đơn. Bạn điền vào đấy và dán ảnh vào. 3 ngày sau cầm thẻ sinh viên gặp chị ấy để nhận vé tháng.</string>
+    <string name="a2">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu cấp cấp giấy chứng nhận. Sau đó chọn loại giấy chứng nhận, điền các thông tin và bấm &quot;Lưu&quot;. Nhớ lên lấy đúng hạn và chuẩn bị lệ phí 5k nhé.</string>
+    <string name="q3">Xin hoãn thi như thế nào?</string>
+    <string name="q4">Làm sao để xin xem lại bài thi?</string>
+
+    <string name="q5">Làm sao để xin hoãn nộp học phí?</string>
+    <string name="a5">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu &quot;Hoãn nộp học phí&quot;. Sau đó điền các thông tin cần thiết và bấm &quot;Lưu&quot;.</string>
+
+    <string name="q6">Làm sao để mượn được học bạ, bằng tốt nghiệp và giấy triệu tập?</string>
+    <string name="a6">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu &quot;Mượn hồ sơ&quot;. Sau đó điền các thông tin cần thiết và bấm &quot;Lưu&quot;. Sau đó nộp giấy xác nhận lý do đã nêu (giấy khám bệnh,...) và nộp tại phòng Công tác sinh viên chậm nhất 3 ngày kể từ ngày thi.</string>
+
+    <string name="q7">Xin xác nhận trợ cấp xã hội như thế nào?</string>
+    <string name="a7">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu &quot;Xác nhận trợ cấp xã hội&quot;. Sau đó làm đơn theo mẫu và nộp tại Phòng CTSV (Phòng 104 - E3). Hồ sơ được giải quyết chậm nhất sau 07 ngày (không kể thứ Bảy, Chủ nhật) kể từ ngày nhận hồ sơ.</string>
+
+    <string name="q8">Xin xác nhận vay vốn ngân hàng chính sách xã hội như thế nào?</string>
+    <string name="a8">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu &quot;Xác nhận vay vốn ngân hàng chính sách xã hội&quot;. Sau đó làm đơn theo mẫu và nộp tại Phòng CTSV (Phòng 104 - E3).</string>
+
+    <string name="q9">Hướng dẫn làm lại thẻ sinh viên?</string>
+    <string name="a9">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu &quot;Cấp lại thẻ sinh viên&quot;. Sau đó điền lý do cụ thể bên dưới Mất/Hỏng thẻ lần mấy, cấp lại lần mấy và bấm &quot;Lưu&quot;.</string>
+
+    <string name="q10">Xin cấp giấy chứng nhận tốt nghiệp tạm thời</string>
+    <string name="a10">Các bạn truy cập trang web http://student.uet.vnu.edu.vn và tạo yêu cầu &quot;Cấp giấy chứng nhận tốt nghiệp tạm thời&quot;. Điền các thông tin cần thiết và bấm &quot;Lưu&quot;.</string>
+
+    <string name="q11">Mất mật khẩu tài khoản ctmail thì phải làm sao?</string>
+    <string name="a11">Nếu bạn bị mất mật khẩu ctmail, hãy nhanh chóng lên Trung tâm máy tính (trong giờ hành chính,tầng 1 nhà G2) để nhờ các thầy reset mật khẩu.</string>
+
+    <string name="q12">Khi nào các CLB tuyển thành viên</string>
+    <string name="a12">Hiện tại trường ĐH Công nghệ có 7 CLB trực thuộc Hội sinh viên. Các câu lạc bộ thường tổ chức tuyển thành viên vào đầu năm học nhưng không có thời gian cố định, các bạn hãy theo dõi trên trang web của Đoàn thanh niên và các fanpage của các CLB để cập nhật tin tức mới nhất nhé.</string>
+
+    <string name="q13">Số điện thoại và email của phòng Đào tạo, phòng Công tác sinh viên?</string>
+    <string name="a13">Điện Thoại: Bộ phận Đào Tạo ĐH: (04) 37547865. Bộ phận Đào Tạo SĐH: (04) 37547810. Email:  daotao_dhcn@vnu.edu.vn. Phòng Công tác sinh viên: (04) 37548864.</string>
+
+    <string name="q14">Lịch tiếp sinh viên của phòng Đào tạo và phòng Công tác sinh viên?</string>
+    <string name="a14">Phòng Đào tạo: Sáng thứ 3, thứ 5 8h-11h30, chiều thứ 2, thứ 4 13h20-16h30.    Phòng Công tác sinh viên: Từ thứ 2 đến thứ 6, sáng 8h-11h30, chiều 13h30-16h30</string>
+
+
+</map>

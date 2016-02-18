@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                style="@style/schedule_title"
+                                android:layout_width="@dimen/schedule_width_col2"
+                                android:text="Mã LMH" />
+
+                            <TextView
+                                style="@style/schedule_title"
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:text="Số báo danh" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                style="@style/schedule_title"
+                                android:text="Ngày thi" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                style="@style/schedule_title"
+                                android:text="Giờ thi" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                style="@style/schedule_title"
+                                android:text="Phòng thi" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                style="@style/schedule_title"
+                                android:text="Hình thức thi" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal"
+                            android:id="@+id/llExam1">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc1"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:id="@+id/soBaoDanh1"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col3" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi1"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi1"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi1"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi1"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llExam2"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc2"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:id="@+id/soBaoDanh2"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi2"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi2"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi2"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi2"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llExam3"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc3"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:id="@+id/soBaoDanh3"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi3"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi3"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi3"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi3"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llExam4"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc4"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:id="@+id/soBaoDanh4"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi4"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi4"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi4"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi4"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llExam5"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc5"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:id="@+id/soBaoDanh5"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi5"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi5"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi5"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi5"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llExam6"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc6"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:id="@+id/soBaoDanh6"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi6"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi6"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi6"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi6"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llExam7"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc7"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:id="@+id/soBaoDanh7"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi7"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi7"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi7"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi7"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llExam8"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc8"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:id="@+id/soBaoDanh8"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi8"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi8"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi8"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi8"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llExam9"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc9"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:id="@+id/soBaoDanh9"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi9"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi9"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi9"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi9"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llExam10"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/title_background"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col1"
+                                android:layout_height="match_parent" />
+
+                            <TextView
+                                android:id="@+id/maLopMonHoc10"
+                                style="@style/item_schedule"
+                                android:layout_width="@dimen/schedule_width_col2" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col3"
+                                android:id="@+id/soBaoDanh10"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col4"
+                                android:id="@+id/ngayThi10"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col5"
+                                android:id="@+id/gioThi10"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col6"
+                                android:id="@+id/phongThi10"
+                                style="@style/item_schedule" />
+
+                            <TextView
+                                android:layout_width="@dimen/schedule_width_col7"
+                                android:id="@+id/hinhThucThi10"
+                                style="@style/item_schedule" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="@dimen/schedule_width_col1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/title_background"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/labelTenMonHoc"
+                        style="@style/schedule_title_number"
+                        android:text="Tên môn học" />
+
+                    <TextView
+                        android:id="@+id/tenMonHoc1"
+                        style="@style/schedule_title_number"
+                        android:text="Empty" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tenMonHoc2"
+                        style="@style/schedule_title_number"
+                        android:text="2" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tenMonHoc3"
+                        style="@style/schedule_title_number"
+                        android:text="3" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tenMonHoc4"
+                        style="@style/schedule_title_number"
+                        android:text="4" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tenMonHoc5"
+                        style="@style/schedule_title_number"
+                        android:text="5" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tenMonHoc6"
+                        style="@style/schedule_title_number"
+                        android:text="6" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tenMonHoc7"
+                        style="@style/schedule_title_number"
+                        android:text="7" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tenMonHoc8"
+                        style="@style/schedule_title_number"
+                        android:text="8" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tenMonHoc9"
+                        style="@style/schedule_title_number"
+                        android:text="9" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tenMonHoc10"
+                        style="@style/schedule_title_number"
+                        android:text="10" />
+                </LinearLayout>
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvAlarmExamSchedule" />
+</LinearLayout>

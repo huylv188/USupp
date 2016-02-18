@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/congdaotao/module/dsthi_new/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/congdaotao/module/dsthi_new/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/congdaotao/module/dsthi_new/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/congdaotao/module/dsthi_new/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/congdaotao/module/dsthi_new/css/form.css" />
+	<script type="text/javascript" src="/congdaotao/module/dsthi_new/js/jquery-1.2.6.min.js"></script>
+	<script type="text/javascript" src="/congdaotao/module/dsthi_new/js/js.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/congdaotao/module/dsthi_new/assets/baad5fe1/gridview/styles.css" />
+<link rel="stylesheet" type="text/css" href="/congdaotao/module/dsthi_new/assets/e69e106d/pager.css" />
+<script type="text/javascript" src="/congdaotao/module/dsthi_new/assets/514af5dd/jquery.js"></script>
+<script type="text/javascript" src="/congdaotao/module/dsthi_new/assets/514af5dd/jquery.ba-bbq.js"></script>
+<title>Tra cứu danh sách thi - Napmonthi Lopmonhoc</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div class="headmain">
+		<div class="uet_logo">  
+			<img src="/congdaotao/module/dsthi_new/css/uet_logo.png" alt="Đại học Công Nghệ">
+		</div>
+		<div class="center_logo">
+			<a href="#" target=""><img alt="Đại học Công Nghệ" src="/congdaotao/module/dsthi_new/css/dhcn.png"></a>
+			<h1 align="center" class="htitle">Tra cứu danh sách thi</h1>
+		</div>
+	</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw4">
+<li><a href="/congdaotao/module/dsthi_new/index.php/lopmonhoc/#"></a></li>
+<li class="active"><a href="/congdaotao/module/dsthi_new/index.php/lopmonhoc/napmonthi">Xem danh sách môn thi</a></li>
+</ul>	</div><!-- mainmenu -->
+			<!-- breadcrumbs -->
+		<div id="content">
+	
+<div class="span-5 last">
+	<div id="sidebar">
+		</div><!-- sidebar -->
+</div>
+<div class="span-19">
+	<div id="content">
+		<h1 align="center">Danh sách thi Học kỳ I năm học 2015-2016</h1>
+<form style="width:400px;" id="dsthi-form" action="/congdaotao/module/dsthi_new/" method="post"><label for="">Nhập mã sinh viên</label>     <input id="keysearch" width="100" maxlength="100" type="text" name="keysearch" />     <input title="Xem thông tin các môn thi" id="xemmonthi" name="yt0" type="button" value="Xem môn thi" /></form><div  id="loading"></div>
+<div id="dsthi-grid" class="grid-view">
+<table class="items">
+<thead>
+<tr>
+<th id="dsthi-grid_c0">STT</th><th id="dsthi-grid_c1">Mã sinh viên</th><th id="dsthi-grid_c2">Họ và tên</th><th id="dsthi-grid_c3">Ngày sinh</th><th id="dsthi-grid_c4">Lớp khóa học</th><th id="dsthi-grid_c5">SBD</th><th id="dsthi-grid_c6">Mã LMH</th><th id="dsthi-grid_c7">Tên môn học</th><th id="dsthi-grid_c8">Ngày thi</th><th id="dsthi-grid_c9">Giờ thi</th><th id="dsthi-grid_c10">Ca thi</th><th id="dsthi-grid_c11">Phòng thi</th><th id="dsthi-grid_c12">Địa điểm</th><th id="dsthi-grid_c13">Hình thức thi</th></tr>
+</thead>
+<tbody>
+<tr><td colspan="14" class="empty"><span class="empty">No results found.</span></td></tr>
+</tbody>
+</table><div class="keys" style="display:none" title="/congdaotao/module/dsthi_new/"></div>
+</div>
+
+	</div><!-- content -->
+</div>
+	</div>
+	<!--<div class="clear"></div>-->
+
+	<div id="footer">
+		
+	</div><!-- footer -->
+	<a href="#" class="scrollup" style="display: inline;">Scroll</a>
+</div><!-- page -->
+
+<script type="text/javascript" src="/congdaotao/module/dsthi_new/assets/baad5fe1/gridview/jquery.yiigridview.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#dsthi-grid').yiiGridView({'ajaxUpdate':['dsthi-grid'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'grid-view-loading','filterClass':'filters','tableClass':'items','selectableRows':1,'enableHistory':false,'updateSelector':'{page}, {sort}','filterSelector':'{filter}','pageVar':'id_page'});
+});
+/*]]>*/
+</script>
+</body>
+</html>

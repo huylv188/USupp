@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tabanim_maincontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/tabanim_appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabanim_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary_500"
+
+                android:elevation="3dp"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/orange"
+                app:tabIndicatorHeight="4dp"
+                app:tabMaxWidth="0dp"
+                app:tabMode="fixed" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/tabanim_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/famTinTuc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_margin="20dp"
+                app:menu_colorNormal="@color/primary_500">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fabTTSuKien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/news_event"
+                    app:fab_label="Sự kiện" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fabTTDaoTao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/news_traning"
+                    app:fab_label="Tin đào tạo" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fabTTHoiThao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/news_conference"
+                    app:fab_label="Tin hội thảo" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fabTTHoatDongDoanThe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/news_activity"
+                    app:fab_label="Tin hoạt động-đoàn thể" />
+            </com.github.clans.fab.FloatingActionMenu>
+        </FrameLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
